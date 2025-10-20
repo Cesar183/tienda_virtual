@@ -22,7 +22,7 @@
     <!--Carrito-->
     <string name="txtAgregarP">Agregar producto</string>
     <string name="etCantidad">Cantidad</string>
-    <string name="etDescripcion">Descripción</string>
+    <string name="etProducto">Producto</string>
     <string name="btnCalcular">Calcular</string>
 
 </resources>
