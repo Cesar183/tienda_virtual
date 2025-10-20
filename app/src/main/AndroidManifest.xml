@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TiendaVirtual">
         <activity
-            android:name=".ProductosActivity"
+            android:name=".carrito.CarritoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".productos.ProductosActivity"
             android:exported="false" />
         <activity
             android:name=".registro_cliente.RegistroClienteActivity"
