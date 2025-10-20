@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Tienda Virtual</string>
+
+    <!--Login cliente-->
+    <string name="txtLoginC">Login de cliente</string>
+    <string name="btnLoginC">Ingresar</string>
+    <string name="tvRegistrarC">Registrar</string>
+
+    <string name="etEmail">Email</string>
+    <string name="etPassword">Password</string>
 </resources>
