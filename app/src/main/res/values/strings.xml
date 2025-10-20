@@ -6,6 +6,12 @@
     <string name="btnLoginC">Ingresar</string>
     <string name="tvRegistrarC">Registrar</string>
 
+    <!--Registro cliente-->
+    <string name="txtRegistroC">Registro de cliente</string>
+    <string name="etNombresC">Nombres completos</string>
     <string name="etEmail">Email</string>
     <string name="etPassword">Password</string>
+    <string name="etConfPassword">Confirmar password</string>
+    <string name="btnRegistrarC">Registrarme</string>
+
 </resources>

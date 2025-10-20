@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".registro_cliente.RegistroClienteActivity">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -18,9 +19,22 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:paddingBottom="25dp"
-            android:text="@string/txtLoginC"
+            android:text="@string/txtRegistroC"
             android:textSize="18sp"
             android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etNombresC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/etNombresC"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -48,9 +62,23 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etConfPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/etConfPassword"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnLoginC"
-            android:text="@string/btnLoginC"
+            android:id="@+id/btnRegistrarC"
+            android:text="@string/btnRegistrarC"
             android:textAllCaps="true"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
